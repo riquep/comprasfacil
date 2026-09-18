@@ -1,0 +1,44 @@
+:root {
+  --cor-fundo: #17211c;
+  --cor-superficie: #1f2b24;
+  --cor-superficie-alta: #28362d;
+  --cor-ambar: #e0a458;
+  --cor-rust: #c1543f;
+  --cor-texto: #ede6d6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--font-body), sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-title), serif;
+  font-weight: 600;
+}
+
+.mono {
+  font-family: var(--font-mono), monospace;
+}
+
+a {
+  color: var(--cor-ambar);
+}
+
+input,
+button {
+  font-family: inherit;
+}
