@@ -1,4 +1,4 @@
-# Registro de Compras
+# Compras Fácil
 
 App pessoal para organizar notas fiscais de compras: importa o JSON gerado pelo [coletor-notas-fiscais](../coletor-notas-fiscais), categoriza os itens (com apoio de IA), e mostra quanto se gasta por categoria e por produto — incluindo preço mínimo, médio e máximo pago em cada produto ao longo do tempo.
 
@@ -6,7 +6,7 @@ App pessoal para organizar notas fiscais de compras: importa o JSON gerado pelo 
 
 ## Especificação
 
-A especificação técnica e funcional completa está em [`docs/spec-registro-compras.md`](docs/spec-registro-compras.md) — modelo de dados, autenticação, arquitetura de pastas, funcionalidades por tela e API routes. Comece por ali antes de mexer no código.
+A especificação técnica e funcional completa está em [`docs/spec-compras-facil.md`](docs/spec-compras-facil.md) — modelo de dados, autenticação, arquitetura de pastas, funcionalidades por tela e API routes. Comece por ali antes de mexer no código.
 
 ## Stack
 
@@ -19,13 +19,13 @@ A especificação técnica e funcional completa está em [`docs/spec-registro-co
 
 ```bash
 git clone <repo>
-cd registro-compras
+cd compras-facil
 npm install
 cp .env.example .env.local   # preencher com as chaves do Supabase e da Anthropic
 npm run dev
 ```
 
-Variáveis necessárias em `.env.local` (ver detalhes em `docs/spec-registro-compras.md` §7):
+Variáveis necessárias em `.env.local` (ver detalhes em `docs/spec-compras-facil.md` §7):
 
 ```
 NEXT_PUBLIC_SUPABASE_URL=
