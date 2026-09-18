@@ -1,4 +1,4 @@
-# Registro de Compras — Especificação Técnica e Funcional
+# Compras Fácil — Especificação Técnica e Funcional
 
 ## 1. Visão geral
 
